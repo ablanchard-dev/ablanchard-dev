@@ -21,6 +21,7 @@ Currently open to full-stack / backend / AI / data engineering roles.
 |---|---|---|
 | [prompt-middleware](https://github.com/ablanchard-dev/prompt-middleware) | Local-first browser middleware that optimizes prompts before they reach LLM interfaces; pure Rust engine + TypeScript extension | Rust, TypeScript, axum |
 | [edge-factory](https://github.com/ablanchard-dev/edge-factory) | Systematic edge-validation machine for quant research: generates strategies, backtests with realistic costs, and kills false edges with a DSR / beta-neutral / PBO critic | Python, statistics |
+| [polyoracle](https://github.com/ablanchard-dev/polyoracle) | Local-first smart-money copy-trading research bot for Polymarket: full-stack (FastAPI + Next.js), strict edge filter, paper-validated, 800+ tests | FastAPI, Next.js, pytest |
 | [lumenia](https://github.com/ablanchard-dev/lumenia) | Full-stack AI assistant for neurodivergent people (HPI / ASD / ADHD), with multi-LLM failover and distress detection | FastAPI, multi-LLM, JS |
 | [warzone-ai-montage](https://github.com/ablanchard-dev/warzone-ai-montage) | Auto-edits Call of Duty highlight reels: detects kills with HUD computer vision + audio + voice, then assembles a beat-synced montage | Python, OpenCV, Whisper, FFmpeg |
 | [hyperdex](https://github.com/ablanchard-dev/hyperdex) | Research-grade copy-trading framework for the Hyperliquid perps DEX: faithful fill simulation + risk layer, gated behind out-of-sample statistical validation | Python, data eng |
@@ -29,4 +30,5 @@ Currently open to full-stack / backend / AI / data engineering roles.
 
 ## Contact
 
-Open to opportunities. Reach me through my GitHub profile.
+- **Email** — blanchardalexayrtongood@gmail.com
+- Open to full-stack / backend / AI / data engineering roles.
