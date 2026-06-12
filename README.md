@@ -25,7 +25,6 @@ Currently open to full-stack / backend / AI / data engineering roles.
 | [warzone-ai-montage](https://github.com/ablanchard-dev/warzone-ai-montage) | Auto-edits Call of Duty highlight reels: detects kills with HUD computer vision + audio + voice, then assembles a beat-synced montage | Python, OpenCV, Whisper, FFmpeg |
 | [hyperdex](https://github.com/ablanchard-dev/hyperdex) | Research-grade copy-trading framework for the Hyperliquid perps DEX: faithful fill simulation + risk layer, gated behind out-of-sample statistical validation | Python, data eng |
 | [scamshield](https://github.com/ablanchard-dev/scamshield) | Scam / phishing text detection with an explainable scoring engine, a Chrome extension and CI | Python, scikit-learn, Docker |
-| [montage-agent](https://github.com/ablanchard-dev/montage-agent) | AI video editor: silence-cut, subtitles, keyword overlays, narrative b-roll, multi-format exports | Streamlit, FastAPI, Python |
 | [dexterio](https://github.com/ablanchard-dev/dexterio) | Quant research framework: backtesting with realistic costs and proper statistical validation | Python, pandas |
 
 ## Contact
