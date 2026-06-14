@@ -31,4 +31,4 @@ Currently open to full-stack / backend / AI / data engineering roles.
 ## Contact
 
 - **Email** — blanchardalexayrtongood@gmail.com
-- Open to full-stack / backend / AI / data engineering roles.
+- **LinkedIn** — https://www.linkedin.com/in/alexandre-blanchard-a17435416
