@@ -22,17 +22,17 @@ Currently open to full-stack / backend / AI / data engineering roles.
 | [scamshield](https://github.com/ablanchard-dev/scamshield) | Scam / phishing text detection with an explainable scoring engine, a Chrome extension and CI | Python, scikit-learn, Docker |
 | [prompt-middleware](https://github.com/ablanchard-dev/prompt-middleware) | Local-first browser middleware that optimizes prompts before they reach LLM interfaces; pure Rust engine + TypeScript extension | Rust, TypeScript, axum |
 
-### Quant research
+### Quant research & backtesting infrastructure
 
-One methodology — generate candidate strategies, backtest them with realistic costs,
-then try hard to disprove the edge before believing it — applied across a few markets.
+I built a reusable backtesting + statistical-validation stack, then put it to work across
+three very different execution venues — traditional brokerage, crypto perps, and prediction markets.
 
 | Project | What it is | Stack |
 |---|---|---|
-| [edge-factory](https://github.com/ablanchard-dev/edge-factory) | The validation engine: a DSR / beta-neutral / PBO critic that kills false edges before they get trusted | Python, statistics |
-| [dexterio](https://github.com/ablanchard-dev/dexterio) | The backtest engine: strategy backtesting with realistic costs and proper statistical validation | Python, pandas |
-| [polyoracle](https://github.com/ablanchard-dev/polyoracle) | Same methodology applied to Polymarket: a local-first smart-money copy-trading research bot, full-stack (FastAPI + Next.js), paper-validated, 800+ tests | FastAPI, Next.js, pytest |
-| [hyperdex](https://github.com/ablanchard-dev/hyperdex) | Same methodology applied to Hyperliquid perps: faithful fill simulation + risk layer, gated behind out-of-sample validation | Python, data eng |
+| [dexterio](https://github.com/ablanchard-dev/dexterio) | Institutional-grade backtest engine for IBKR equities / futures: intrabar stop/take-profit priority, real commission tiers, slippage + spread fill model | Python, pandas |
+| [edge-factory](https://github.com/ablanchard-dev/edge-factory) | The statistical-validation layer that grew out of it: a DSR / PBO / CSCV critic that kills false edges before they're trusted | Python, statistics |
+| [hyperdex](https://github.com/ablanchard-dev/hyperdex) | The same stack on Hyperliquid perps: faithful L2-orderbook fill simulation + copy-trading + risk layer | Python, data eng |
+| [polyoracle](https://github.com/ablanchard-dev/polyoracle) | The same stack on Polymarket prediction markets: smart-money copy-trading, full-stack (FastAPI + Next.js), paper-validated, 800+ tests | FastAPI, Next.js, pytest |
 
 ### In progress
 
@@ -40,8 +40,6 @@ then try hard to disprove the edge before believing it — applied across a few 
 |---|---|---|
 | [lumenia](https://github.com/ablanchard-dev/lumenia) | Full-stack AI assistant for neurodivergent people (HPI / ASD / ADHD), with multi-LLM failover and distress detection — *work in progress* | FastAPI, multi-LLM, JS |
 | [warzone-ai-montage](https://github.com/ablanchard-dev/warzone-ai-montage) | Auto-edits Call of Duty highlight reels: detects kills with HUD computer vision + audio + voice, then assembles a beat-synced montage — *work in progress* | Python, OpenCV, Whisper, FFmpeg |
-
-![warzone-ai-montage demo](https://raw.githubusercontent.com/ablanchard-dev/warzone-ai-montage/main/docs/demo.gif)
 
 ## Contact
 
