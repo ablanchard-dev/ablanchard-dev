@@ -1,10 +1,10 @@
 # Alex Blanchard
 
-Full-stack & AI developer. I build end-to-end products: backend, frontend, computer
-vision, LLM integration, and some Rust on the side. I also do a fair amount of
+Full-stack product engineer, AI-accelerated. I build end-to-end products — backend,
+frontend, LLM integration — and I measure them honestly before I trust them. I also do a fair amount of
 quantitative research, where the discipline is mostly about *not* fooling yourself.
 
-Currently open to full-stack / backend / AI / data engineering roles.
+Open to AI / product / full-stack engineer roles.
 
 ## Stack
 
@@ -20,6 +20,8 @@ Currently open to full-stack / backend / AI / data engineering roles.
 | Project | What it is | Stack |
 |---|---|---|
 | [scamshield](https://github.com/ablanchard-dev/scamshield) | Scam / phishing text detection with an explainable scoring engine, a Chrome extension and CI | Python, scikit-learn, Docker |
+| [dexcheck](https://github.com/ablanchard-dev/dexcheck) | Read-only forensic PC check for Call of Duty / Warzone screen-share vetting — 36 probes, 190 tests, used by a real anti-cheat community | PowerShell, bash |
+| [lumenia](https://github.com/ablanchard-dev/lumenia) | Full-stack AI assistant for neurodivergent people (HPI / ASD / ADHD): multi-LLM failover, server-enforced entry gate, and crisis detection | FastAPI, multi-LLM, JS |
 | [prompt-middleware](https://github.com/ablanchard-dev/prompt-middleware) | Local-first browser middleware that optimizes prompts before they reach LLM interfaces; pure Rust engine + TypeScript extension | Rust, TypeScript, axum |
 
 ### Quant research & backtesting infrastructure
@@ -38,7 +40,6 @@ three very different execution venues — traditional brokerage, crypto perps, a
 
 | Project | What it is | Stack |
 |---|---|---|
-| [lumenia](https://github.com/ablanchard-dev/lumenia) | Full-stack AI assistant for neurodivergent people (HPI / ASD / ADHD), with multi-LLM failover and distress detection — *work in progress* | FastAPI, multi-LLM, JS |
 | [warzone-ai-montage](https://github.com/ablanchard-dev/warzone-ai-montage) | Auto-edits Call of Duty highlight reels: detects kills with HUD computer vision + audio + voice, then assembles a beat-synced montage — *work in progress* | Python, OpenCV, Whisper, FFmpeg |
 
 ## Contact
