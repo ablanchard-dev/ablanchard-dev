@@ -1,4 +1,4 @@
-# Alex Blanchard
+# Alexandre Blanchard
 
 Full-stack product engineer, AI-accelerated. I build end-to-end products — backend,
 frontend, LLM integration — and I measure them honestly before I trust them. I also do a fair amount of
