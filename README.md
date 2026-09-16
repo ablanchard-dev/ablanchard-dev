@@ -24,15 +24,16 @@ Open to AI / product / full-stack engineer roles.
 
 ### Quant research & backtesting infrastructure
 
-I built a reusable backtesting + statistical-validation stack, then put it to work across
-three very different execution venues — traditional brokerage, crypto perps, and prediction markets.
+The same discipline applied to three very different venues (traditional brokerage, crypto
+perps, prediction markets): measure an edge honestly before trusting it. None of them
+claims a profit, and each repository states its limits.
 
 | Project | What it is | Stack |
 |---|---|---|
-| [dexterio](https://github.com/ablanchard-dev/dexterio) | Institutional-grade backtest engine for IBKR equities / futures: intrabar stop/take-profit priority, real commission tiers, slippage + spread fill model | Python, pandas |
-| [edge-factory](https://github.com/ablanchard-dev/edge-factory) | The statistical-validation layer that grew out of it: a DSR / PBO / CSCV critic that kills false edges before they're trusted | Python, statistics |
-| [hyperdex](https://github.com/ablanchard-dev/hyperdex) | The same stack on Hyperliquid perps: faithful L2-orderbook fill simulation + copy-trading + risk layer | Python, data eng |
-| [polyoracle](https://github.com/ablanchard-dev/polyoracle) | The same stack on Polymarket prediction markets: smart-money copy-trading, full-stack (FastAPI + Next.js), paper-validated, 800+ tests | FastAPI, Next.js, pytest |
+| [dexterio](https://github.com/ablanchard-dev/dexterio) | Backtest engine for US ETFs and index futures: stop checked before take-profit inside a bar, IBKR commission models, ideal vs conservative fill models, 590+ tests | Python, FastAPI, React |
+| [edge-factory](https://github.com/ablanchard-dev/edge-factory) | A critic that kills false edges: residual alpha after beta, Deflated Sharpe deflated by the measured variance of all trials, tail/convexity check; PBO/CSCV and permutation tests available | Python, statistics |
+| [hyperdex](https://github.com/ablanchard-dev/hyperdex) | Paper copy-trading on Hyperliquid perps: fills simulated by walking the real L2 order book, sharded WebSocket ingestion with watchdogs, risk layer | Python, data eng |
+| [polyoracle](https://github.com/ablanchard-dev/polyoracle) | Research bot for Polymarket: wallet discovery with out-of-sample validation, paper trading behind a locked live path, full-stack (FastAPI + Next.js), 930+ tests | FastAPI, Next.js, pytest |
 
 ### In progress
 
