@@ -19,9 +19,8 @@ Open to AI / product / full-stack engineer roles.
 
 | Project | What it is | Stack |
 |---|---|---|
-| [dexcheck](https://github.com/ablanchard-dev/dexcheck) | Read-only forensic PC check for Call of Duty / Warzone screen-share vetting — 36 probes, 190+ tests. The moderator dictates a nonce that is folded into the report's SHA-256, so a report proves it was produced live on that machine | PowerShell, bash |
+| [dexcheck](https://github.com/ablanchard-dev/dexcheck) | Read-only anti-cheat PC check for Call of Duty / Warzone screen-share vetting: 40 probes on traces that survive deletion (USN journal, Prefetch, Shimcache…), one double-click, verdict tuned so a clean PC comes out clean. 270+ tests in CI | PowerShell, bash |
 | [lumenia](https://github.com/ablanchard-dev/lumenia) | Full-stack AI assistant for neurodivergent people (HPI / ASD / ADHD): multi-LLM failover, server-enforced entry gate, and crisis detection | FastAPI, multi-LLM, JS |
-| [prompt-middleware](https://github.com/ablanchard-dev/prompt-middleware) | Local-first browser middleware that optimizes prompts before they reach LLM interfaces; pure Rust engine + TypeScript extension | Rust, TypeScript, axum |
 
 ### Quant research & backtesting infrastructure
 
