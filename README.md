@@ -1,6 +1,6 @@
 I build tools that look for evidence instead of taking claims at face value.
 
-- **[dexcheck](https://github.com/ablanchard-dev/dexcheck)**: anti-cheat PC check for Call of Duty screen-share vetting. Reads traces that survive deletion (Prefetch, BAM, USN), never modifies the machine.
+- **[dexcheck](https://github.com/ablanchard-dev/dexcheck)**: anti-cheat PC check for Call of Duty screen-share vetting. Reads traces that survive deletion (Prefetch, BAM, USN), never modifies the machine. Listed in [awesome-game-security](https://github.com/gmh5225/awesome-game-security).
 - **[claimcheck](https://github.com/ablanchard-dev/claimcheck)**: checks what a coding agent says it did against what it actually did.
 - **[lumenia](https://github.com/ablanchard-dev/lumenia)**: assistant for neurodivergent people, with server-side crisis detection.
 - **[warzone-ai-montage](https://github.com/ablanchard-dev/warzone-ai-montage)**: automatic highlight montages from HUD kill detection.
